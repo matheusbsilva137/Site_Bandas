@@ -1,0 +1,238 @@
+body{
+	background-image: url(fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+a, ul li a{
+	text-decoration: none;
+	color: black;
+}
+input, select{
+	border: white;
+	height: 2.5%;
+	padding: 3px;
+	font-family: "Trebuchet MS";
+	font-size: 0.55em;
+}
+
+.erro{
+	font-family: "Trebuchet MS";
+	font-size: 0.9em;
+	width: 100%;
+	background-color: white;
+	color: red;
+}
+.exclude:hover{
+	color: red;
+	transition: 0.2s ease-in;
+}
+
+.exclude:not(hover){
+	color: black;
+	transition: 0.2s ease-in;
+}
+
+.alt:hover{
+	color: red;
+	transition: 0.2s ease-in;
+}
+
+.alt:not(hover){
+	color: black;
+	transition: 0.2s ease-in;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu{
+	width: 100%;
+	height: 3.5%;
+	background: white;
+	float: left;
+	z-index: 9999;
+	position: fixed;
+}
+
+.center{
+	width: 50%;
+	height: 3.5%;
+	margin: 0 auto;
+	list-style-type:none;
+	cursor: pointer;
+}
+
+.center li{
+	width: 10%;
+	padding: 1% 1.5%;
+	list-style: none;
+	float: left;
+	text-align: center;
+	color: black;
+	font-family: "Trebuchet MS";
+	font-size: 120%;
+}
+.titulo{
+	margin-top: 5%;
+	font-weight: bold;
+}
+
+.center li ul{
+	height: 100%;
+	width: 9%;
+	background-color: white;
+	color: white;
+	font-size: 80%;
+	position: absolute;
+	top: 100%;
+	display: none;
+}
+
+#destaque{
+	background-color: #02adbe;
+	color: white;
+}
+
+.conteudo{
+	color: white;
+	font-family: "Trebuchet MS";
+	font-size: 160%;
+	text-align:center;
+	width: 70%;
+	height: auto;
+	float: left;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+
+#formul{
+	background-color: white;
+	width: 100%;
+	height: 10%;
+}
+
+#entrada{
+	font-family: "Trebuchet MS";
+	padding: 5px;
+	font-size: 70%;
+	height: 3%;
+	border: 0px;
+}
+
+table{
+	margin-top: 2%;
+	margin-left: 15%;
+	color: white;
+	padding: 0px;
+	background-color: white;
+	border: none;
+	text-align: center;
+	width: 70%;
+}
+
+th{
+	font-size: 115%;
+	font-family: "Trebuchet MS";
+	padding: 5px;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+tr:nth-child(odd){
+	background-color: #02adbe;
+	border: none;
+	color: white;
+}
+
+tr:nth-child(odd) td{
+	background-color: #02adbe;
+	border: none;
+	color: white;
+}
+
+td{
+	font-size: 115%;
+	padding: 5px;
+	color: black;
+	border: none;
+	color: black;
+}
+	
+.but_env{
+	color: #02adbe;
+	background-color: white;
+	text-align:center;
+	font-family: "Trebuchet MS";
+	font-size: 60%;
+	border: none;
+	padding: 0%;
+	margin-top: 5%;
+	height: 3.15%;
+	width: 5%;
+	border: 1px solid white;
+	cursor: pointer;
+}
+
+.center li:hover{
+	background-color: #02adbe;
+	color: white;
+	transition: 0.2s ease-in;
+}
+
+.center li:hover ul{
+	background-color: #02adbe;
+	margin-left: -0.75%;
+	height: 100%;
+	width: 12.25%;
+	display: block;
+}
+
+.center li:not(hover) ul{
+	background-color: #02adbe;
+	transition: 0.2s ease-in;
+}
+
+.center li ul li{
+	display: block;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+
+.center li ul li:hover{
+	background-color: #02adbe;
+	color: black;
+}
+
+.center li ul li:not(hover){
+	background-color: white;
+	color: black;
+}
+
+.like{
+	color: #003366;
+	background-color: white;
+	font-family: "Trebuchet MS";
+	font-size: 100%;
+	border: 1px solid #003366;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.like:hover{
+	color: white;
+	background-color: #003366;
+	transition: 0.2s ease-in;
+}
+
+.like:not(hover){
+	color: #003366;
+	background-color: white;
+	transition: 0.2s ease-in;
+}
